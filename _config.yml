@@ -180,6 +180,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - UPGRADING.pt-br.md
   - bin/
   - CONTRIBUTING.md
   - CONTRIBUTING.pt-br.md
@@ -678,3 +679,4 @@ jsonresume:
   - languages
   - interests
   - references
+
