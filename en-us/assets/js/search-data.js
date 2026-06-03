@@ -451,6 +451,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/en-us/projects/9_project/";
+            },},{id: "projects-sistema-de-ecuaciones-en-diferencia",
+          title: 'Sistema de Ecuaciones en Diferencia',
+          description: "Modelo Depredador-Presa o Lotka-Volterra",
+          section: "Projects",handler: () => {
+              window.location.href = "/en-us/projects/practica_1/";
             },},{
         id: 'social-cv',
         title: 'CV',
