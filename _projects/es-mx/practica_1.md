@@ -16,6 +16,15 @@ $$
 \frac{dx}{dt} = \alpha x - \beta xy
 $$
 
+$$
+\frac{dy}{dt} = - \gamma y + \delta xy
+$$
+
+En donde las variables $$x$$ y $$y$$ representan la densidad de las poblaciones de presa y depredador respectivamente. Mientras que $$\alpha$$ es el crecimiento per capita de
+las presas, $$\beta$$ el efecto de los depredadores sobre la mortalidad en población de presas, $$\gamma$$ la tasa de mortalidad de los depredadores y $$\delta$$ el efecto de la
+población de presas sobre el crecimiento de los depredadores.
+
+
 
 <div class="row">
     <div class="col">
