@@ -82,4 +82,4 @@ En el último caso, podemos ver que, aunque todas las constantes cumples las con
 
 ## Conclusión
 
-
+Las ecuaciónes en diferencia nos permiten analizar el comportamiento de modelos basados en ecuaciones diferenciales sin necesidad de resolver las mismas por metodos analíticos, lo cual puede llegar a ser increiblemente complicado e incluso imposible en algunos casos. Para las ecuaciones de Lotka-Volterra en especifico, nos permiten dar un análisis de los comportamientos de ambas poblaciones dadas diferentes constantes y poblaciones iniciales de una manera sencilla utilizando métodos computacionales. 
