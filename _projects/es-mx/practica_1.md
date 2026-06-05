@@ -42,7 +42,7 @@ Este sistema es el que nos permite observar los cambios a tiempo discreto utiliz
     </div>
 </div>
 <div class="caption">
-    Gráfica del modelo con parámetros alpha=0.08, beta=0.01, gamma=0.1, delta = 0.15
+    Gráfica del modelo con parámetros: alpha=0.08, beta=0.01, gamma=0.1, delta = 0.15
 </div>
 
 Podemos observar que, con el tiempo, la problación de depredadores disminuye hasta desaparecer, lo cual deja a la población de presa como la única restante.
@@ -75,5 +75,11 @@ Mientras que, a pesar de el limite en la población de depredadores, la poblaci�
     </div>
 </div>
 <div class="caption">
-    Gráfica del modelo con parámetros:    
+    Gráfica del modelo con parámetros: alpha=0.25, beta=0.95, gamma=0.55, delta = 1.1
 </div>
+
+En el último caso, podemos ver que, aunque todas las constantes cumples las condiciones del caso anterior, dentro del lapso de tiempo dado nunca llegan a un punto de equilibrio. Esto se podría deber a que la diferencia entre algunas de las constantes es menor que en el casos anterior, especificamente en la tasa de mortalidad y el efecto de presas sobre la población de depredadores. Sin embargo, en la tercera gráfica se puede observar que las poblaciones sí se acercan lentamente a un punto de equilibrio. Es decir, dada una cierta cantidad de tiempo, las poblaciones encontraran llegaran a un equilibrio. Esta cantidad de tiempo depende de las poblaciones iniciales del modelo.
+
+## Conclusión
+
+
