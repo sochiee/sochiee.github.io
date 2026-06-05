@@ -25,6 +25,15 @@ las presas, $$\beta$$ el efecto de los depredadores sobre la mortalidad en pobla
 población de presas sobre el crecimiento de los depredadores.
 
 
+Lo anterior es equivalente al siguiente sistema de ecuaciones en diferencias finitas.
+
+$$
+\begin{cases}
+x_{n+1} = ( \alpha +1) - \alpha {x_{n}}^{2} - \beta x_{n} y_{n}
+y_{n+1} = ( 1 - \gamma ) y_{n} + /delta y_{n} x_{n]  
+$$ 
+
+Este sistema es el que nos permite observar los cambios a tiempo discreto utilizando métodos computacionales.
 
 <div class="row">
     <div class="col">
