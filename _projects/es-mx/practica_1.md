@@ -10,8 +10,20 @@ related_publications: true
 ---
 
 <div class="row">
-    <div class="col">
+    <div class="col-sm">
         {% include figure.liquid loading="eager" path="assets/img/practicas/preywin.png" title="prey win" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm">
+        {% include figure.liquid loading="eager" path="assets/img/practicas/converge.png" title="prey win" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm">
+        {% include figure.liquid loading="eager" path="assets/img/practicas/cycle.png" title="prey win" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
