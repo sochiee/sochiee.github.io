@@ -80,6 +80,4 @@ Mientras que, a pesar de el limite en la población de depredadores, la poblaci�
 
 En el último caso, podemos ver que, aunque todas las constantes cumples las condiciones del caso anterior, dentro del lapso de tiempo dado nunca llegan a un punto de equilibrio. Esto se podría deber a que la diferencia entre algunas de las constantes es menor que en el casos anterior, especificamente en la tasa de mortalidad y el efecto de presas sobre la población de depredadores. Sin embargo, en la tercera gráfica se puede observar que las poblaciones sí se acercan lentamente a un punto de equilibrio. Es decir, dada una cierta cantidad de tiempo, las poblaciones encontraran llegaran a un equilibrio. Esta cantidad de tiempo depende de las poblaciones iniciales del modelo.
 
-## Conclusión
-
 Las ecuaciónes en diferencia nos permiten analizar el comportamiento de modelos basados en ecuaciones diferenciales sin necesidad de resolver las mismas por metodos analíticos, lo cual puede llegar a ser increiblemente complicado e incluso imposible en algunos casos. Para las ecuaciones de Lotka-Volterra en especifico, nos permiten dar un análisis de los comportamientos de ambas poblaciones dadas diferentes constantes y poblaciones iniciales de una manera sencilla utilizando métodos computacionales. 
