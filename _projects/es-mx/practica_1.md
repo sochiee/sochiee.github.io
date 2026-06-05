@@ -42,13 +42,11 @@ Este sistema es el que nos permite observar los cambios a tiempo discreto utiliz
     </div>
 </div>
 <div class="caption">
-    Gráfica del modelo con parametros $$\alpha = 0,08$$, $$\beta = 0,01$$, $$\gamma = 0.15$$, $$\delta = 0.1$$
+    Gráfica del modelo con parametros alpha=0.08, beta=0.01, gamma=0.1, delta = 0.15
 </div>
 
-
 Podemos observar que, con el tiempo, la problación de depredadores disminuye hasta desaparecer, lo cual deja a la población de presa como la única restante.
-Lo anteríor podría ser debido a:
-
+Lo anteríor podría ser debido a un muy bajo efecto de los depredadores en la población de las presas y a una tasa de mortalidad de depredadores mayor a la tasa de crecimiento de las presas.
     
 <div class="row">
     <div class="col">
