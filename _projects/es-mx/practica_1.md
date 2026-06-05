@@ -60,7 +60,7 @@ Lo anteríor podría ser debido a un muy bajo efecto de los depredadores en la p
 En este caso se tiene que, dado un tiempo suficiente, ambas poblaciones encuentran un punto de equilibrio despues de un periodo de oscilación. Este punto $$P$$ de convergencia depende de las constantes de las ecuaciones.
 
 $$
-P = ( \frac{ \gamma }{ \delta } , \frac{ \alpha ( \delta - \gamma ) }{ \beta \gamma }
+P = ( \frac{ \gamma }{ \delta } , \frac{ \alpha ( \delta - \gamma ) }{ \beta \gamma } )
 $$
 
 <div class="row">
