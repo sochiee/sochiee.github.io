@@ -53,6 +53,16 @@ Lo anteríor podría ser debido a un muy bajo efecto de los depredadores en la p
         {% include figure.liquid loading="eager" path="assets/img/practicas/converge.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Gráfica del modelo con parametros alpha=0.25, beta=0.95, gamma=1.1, delta=0.55
+</div>
+
+En este caso se tiene que, dado un tiempo suficiente, ambas poblaciones encuentran un punto de equilibrio despues de un periodo de oscilación. Este punto $$P$$ de convergencia depende de las constantes de las ecuaciones.
+
+$$
+P = ( \frac{ \gamma }{ \delta } , \frac{ \alpha ( \delta - \gamma ) }{ \beta \gamma }
+$$
+
 <div class="row">
     <div class="col">
         {% include figure.liquid loading="eager" path="assets/img/practicas/cycle.png" title="example image" class="img-fluid rounded z-depth-1" %}
