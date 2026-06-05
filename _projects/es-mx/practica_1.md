@@ -9,15 +9,27 @@ category: Taller de Modelado
 related_publications: true
 ---
 
+El modelo Lotka-volterra es una representación de un sistema biológico en el que dos especies interactuan, una como presa y la otra como depredador.
+Consiste en las siguientes ecuaciones diferenciales, las cuales describen las dinámicas entre las dos poblaciones.
+
+$$
+\frac{dx}{dt} = \alpha x - \beta xy
+$$
+
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/practicas/cycle.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col">
         {% include figure.liquid loading="eager" path="assets/img/practicas/preywin.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+</div>
+<div class="row">
+    <div class="col">
         {% include figure.liquid loading="eager" path="assets/img/practicas/converge.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/practicas/cycle.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
