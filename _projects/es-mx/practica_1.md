@@ -41,6 +41,13 @@ Este sistema es el que nos permite observar los cambios a tiempo discreto utiliz
         {% include figure.liquid loading="eager" path="assets/img/practicas/preywin.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Gráfica del modelo con parametros $$\alpha = 0,08$$, $$\beta = 0,01$$, $$\gamma = 0.15$$, $$\delta = 0.1$$
+
+Podemos observar que, con el tiempo, la problación de depredadores disminuye hasta desaparecer, lo cual deja a la población de presa como la única restante.
+Lo anteríor podría ser debido a:
+
+    
 <div class="row">
     <div class="col">
         {% include figure.liquid loading="eager" path="assets/img/practicas/converge.png" title="example image" class="img-fluid rounded z-depth-1" %}
