@@ -28,11 +28,12 @@ población de presas sobre el crecimiento de los depredadores.
 Lo anterior es equivalente al siguiente sistema de ecuaciones en diferencias finitas.
 
 $$
-\begin{cases}
 x_{n+1} = ( \alpha +1) - \alpha {x_{n}}^{2} - \beta x_{n} y_{n} \\
-y_{n+1} = ( 1 - \gamma ) y_{n} + /delta y_{n} x_{n]  
-\end{cases}
 $$ 
+
+$$ 
+y_{n+1} = ( 1 - \gamma ) y_{n} + /delta y_{n} x_{n]  
+$$
 
 Este sistema es el que nos permite observar los cambios a tiempo discreto utilizando métodos computacionales.
 
