@@ -34,16 +34,16 @@ Sin embargo, calcular el determinante de este modo para matrices más grandes es
 
 Dada una función que calcula la factorización QR de una matriz A, definimos la siguiente función.
 
-'''python
-
+{% highlight python linenos %}
 def eigenvals(A: list[list[float]], n: int = 100) -> list[float]:
+    
 
-    Ak = A 
+    Ak = A  # A^0 = A original
 
     for _ in range(n):
-        Q, R = qr(Ak)
-        Ak = matmul(R, Q)
-        
-    return Ak
-'''
+        Q, R = qr(Ak)  # paso 1: factorizar
+        Ak = matmul(R, Q)  # paso 2: recombinar al revés
 
+    # Los eigenvalores están en la diagonal de Ak
+    return [Ak[i][i] for i in range(len(Ak))]
+{% endhighlight %}
