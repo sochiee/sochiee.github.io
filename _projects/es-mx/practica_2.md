@@ -22,11 +22,11 @@ $$
 Podemos usar el metodo del polinomio caracteristico para calcular sus eigenvalores.
 
 $$
-\begin{align}
+\begin{align*}
 & Det( A - I \lambda ) = 0 \\
 \iff & \lambda ^{2} - 13 \lambda + 36 = 0 \\
 \iff & \lambda _{1} = 4 \quad \lambda _{2} = 9
-\end{align}
+\end{align*}
 $$ 
 
 Sin embargo, calcular el determinante de este modo para matrices más grandes es computacionalmente impractico. Así, usaremos el método QR para calcular los eigenvalores de A.
@@ -35,6 +35,7 @@ Sin embargo, calcular el determinante de este modo para matrices más grandes es
 Dada una función que calcula la factorización QR de una matriz A, definimos la siguiente función.
 
 '''python
+
 def eigenvals(A: list[list[float]], n: int = 100) -> list[float]:
 
     Ak = A 
