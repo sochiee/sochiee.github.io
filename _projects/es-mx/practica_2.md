@@ -23,9 +23,9 @@ Podemos usar el metodo del polinomio caracteristico para calcular sus eigenvalor
 
 $$
 \begin{align}
-&= Det( A - I \delta ) = 0 \\
-\iff &= \delta ^{2} - 13 \delta + 36 = 0 \\
-\iff \delta _{1} = 4 \quad \delta _{2} = 9
+&= Det( A - I \lambda ) = 0 \\
+\iff &= \lambda ^{2} - 13 \lambda + 36 = 0 \\
+\iff &= \lambda _{1} = 4 \quad \lambda _{2} = 9
 \end{align}
 $$ 
 
