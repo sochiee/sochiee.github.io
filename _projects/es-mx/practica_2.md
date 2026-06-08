@@ -29,5 +29,20 @@ $$
 \end{align}
 $$ 
 
+Sin embargo, calcular el determinante de este modo para matrices más grandes es computacionalmente impractico. Así, usaremos el método QR para calcular los eigenvalores de A.
 
+
+Dada una función que calcula la factorización QR de una matriz A, definimos la siguiente función.
+
+'''python
+def eigenvals(A: list[list[float]], n: int = 100) -> list[float]:
+
+    Ak = A 
+
+    for _ in range(n):
+        Q, R = qr(Ak)
+        Ak = matmul(R, Q)
+        
+    return Ak
+'''
 
