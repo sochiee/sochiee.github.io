@@ -12,7 +12,7 @@ related_publications: true
 Sea
 
 $$
-A = $\begin{bmatrix}a & b\\c & d\end{bmatrix}$
+A = \begin{bmatrix}a & b\\c & d\end{bmatrix}
 $$
 
 
