@@ -35,15 +35,23 @@ Sin embargo, calcular el determinante de este modo para matrices más grandes es
 Dada una función que calcula la factorización QR de una matriz A, definimos la siguiente función.
 
 {% highlight python linenos %}
-def eigenvals(A: list[list[float]], n: int = 100) -> list[float]:
+def eigenvals(A, n):
     
-
-    Ak = A  # A^0 = A original
+    Ak = A 
 
     for _ in range(n):
-        Q, R = qr(Ak)  # paso 1: factorizar
-        Ak = matmul(R, Q)  # paso 2: recombinar al revés
+        Q, R = qr(Ak)
+        Ak = matmul(R, Q) 
 
-    # Los eigenvalores están en la diagonal de Ak
-    return [Ak[i][i] for i in range(len(Ak))]
+    return Ak
 {% endhighlight %}
+
+Esta función es una implementación del método QR. Dada una una matriz A y un numero n de iteracioens, corre un ciclo en donde define matrices simétricas a A usando su factorización QR, ya que: 
+
+$$
+\begin{align*}
+& A = QR \\
+\iff & Q^{T} A = R \\
+\iff & Q^{T} A Q = R Q
+$$ 
+
