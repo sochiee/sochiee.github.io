@@ -56,7 +56,7 @@ $$
 \end{align*}
 $$ 
 
-Por lo cual, para cada iteracion, la matriz $$ A_{k} $$ es una matriz simétrica a A. 
+Por lo cual, para cada iteracion, la matriz $$A_{k}$$ es una matriz simétrica a A. 
 
 
 
