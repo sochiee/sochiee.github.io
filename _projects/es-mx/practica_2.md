@@ -53,5 +53,6 @@ $$
 & A = QR \\
 \iff & Q^{T} A = R \\
 \iff & Q^{T} A Q = R Q
+\end{align*}
 $$ 
 
