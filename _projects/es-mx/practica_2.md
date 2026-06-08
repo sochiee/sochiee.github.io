@@ -26,6 +26,7 @@ $$
 &= Det( A - I \delta ) = 0 \\
 \iff &= \delta ^{2} - 13 \delta + 36 = 0 \\
 \iff \delta _{1} = 4 \quad \delta _{2} = 9
+\end{align}
 $$ 
 
 
