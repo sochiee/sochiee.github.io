@@ -456,6 +456,11 @@ ninja.data = [{
           description: "Modelo Depredador-Presa o Lotka-Volterra",
           section: "Projects",handler: () => {
               window.location.href = "/en-us/projects/practica_1/";
+            },},{id: "projects-método-qr",
+          title: 'Método QR',
+          description: "Para calculo de eigenvalores",
+          section: "Projects",handler: () => {
+              window.location.href = "/en-us/projects/practica_2/";
             },},{
         id: 'social-cv',
         title: 'CV',
