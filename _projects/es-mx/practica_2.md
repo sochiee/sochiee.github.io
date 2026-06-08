@@ -12,10 +12,10 @@ related_publications: true
 Sea
 
 $$
-\begin{bmatrix}
+\begin{matrix}
 a & b\\
 c & d
-\end{bmatrix}
+\end{matrix}
 $$
 
 
