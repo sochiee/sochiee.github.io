@@ -158,7 +158,7 @@ $$
 $$
 \begin{align*}
 \frac{\partial}{\partial \beta _1} E(\beta _0, \beta _1) &= \frac{\partial}{\partial \beta _1} \sum_{i=1}^n (y_i - \beta _0 x_{i1} - \beta _1 x_{i2})^2 \\
-                      &= -2 ( \sum_{i=1}^n y_i x_{i1} - \beta _0 \sum_{i=1}^n x_{i1}x_{i2} \beta _1 \sum_{i=1}^n x_{i2}^2 )
+                      &= -2 ( \sum_{i=1}^n y_i x_{i2} - \beta _0 \sum_{i=1}^n x_{i1}x_{i2} - \beta _1 \sum_{i=1}^n x_{i2}^2 )
 \end{align*}
 $$
 
