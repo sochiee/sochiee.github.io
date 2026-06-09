@@ -127,3 +127,14 @@ $$
 \end{align*}
 $$ 
 
+Entonces, ahora tenemos observaciones de la forma $$\{x_{i1}, x_{i2}, y_i\}^{n}_{i=1}$$:
+
+$$
+\begin{align*}
+& y_i = \beta _0 x_{i1} + \beta _1 x_{i2} \epsilon _i \\
+\iff & \epsilon _i  = y_i - \beta _0 x_{i1} - \beta _1 x_{i2}
+\end{align*}
+$$ 
+
+
+
