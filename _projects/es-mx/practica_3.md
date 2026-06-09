@@ -140,10 +140,13 @@ Nuevamente definimos nuestra función de error:
 
 $$
 \begin{align*}
-E(\beta _1, \beta _2) &= \sum_{i=1}^n \epsilon _{i}^{2} \\
+E(\beta _0, \beta _1) &= \sum_{i=1}^n \epsilon _{i}^{2} \\
                       &= \sum_{i=1}^n (y_i - \beta _0 x_{i1} - \beta _1 x_{i2})^2
 \end{align*}
 $$
+
+Tomamos las derivada parciales con respecto a $$\beta _0$$ y $$\beta _1$$:
+
 
 
 
