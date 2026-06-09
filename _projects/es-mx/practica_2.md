@@ -3,8 +3,8 @@ page_id: practica_2
 layout: page
 title: Método QR
 description: >
-    <p>Galeana Morán Miguel Ángel</p>
-    <p>García Chalche Julio César</p>
+    <p>Domínguez León José Miguel</p>
+    <p>Lazcano Flores Valeria</p>
     <p>Sánchez García Rafael</p>
 img: assets/img/practicas/converge.png
 importance: 2
