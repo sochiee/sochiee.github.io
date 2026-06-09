@@ -78,8 +78,6 @@ El cual es el valor deseado de $$k$$. Programamos una función en Python que nos
 
 ```python
 def rls(x, y):
-    n = len(x)
-
     xy = [xi * yi for xi, yi in zip(x, y)]
     x2 = [xi**2 for xi in x]
 
@@ -178,6 +176,42 @@ $$
 \sum_{i=1}^n y_i x_{i2}
 \end{bmatrix}
 $$
+
+Definimos otra función en python que resuelva el sistema de ecuaciones utilizando numpy:
+
+```python
+def rlm(x1, x2, y):
+    x1sq = [xi ** 2 for xi in x1]
+    x2sq = [xi ** 2 for xi in x2]
+    x1x2 = [xi1 * xi2 for xi1, xi2 in zip(x1, x2)]
+
+    suma_x1x2 = sum(x1x2)
+    suma_x1sq = sum(x1sq)
+    suma_x2sq = sum(x2sq)
+
+    yx1 = [y * xi for y, xi in zip(y, x1)]
+    yx2 = [y * xi for y, xi in zip(y, x2)]
+
+    suma_yx1 = sum(yx1)
+    suma_yx2 = sum(yx2)
+
+    A = np.array([[suma_x1sq, suma_x1x2],[suma_x1x2, suma_x2sq]])
+    
+    B = np.array([[suma_yx1],[suma_yx2]])
+    
+    solucion = np.linalg.solve(A, B)
+
+    return solucion
+```
+
+Al ingresar la lista de las longitudes y las circunferencias máximas al cuadrado nos regresa los siguientes valores de $$\beta_0$$ y $$\beta_1$$:
+
+```bash
+## -0.012237, 0.001990
+```
+
+Y al graficarlos obtenemos la siguiente gráfica: 
+
 
 
 
