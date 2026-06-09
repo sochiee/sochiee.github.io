@@ -75,5 +75,23 @@ $$
 \end{align*}
 $$
 
+El cual es el valor deseado de $$k$$. Programamos una función en Python que nos permite obtener el valor de $$k$$ dada una lista de longitudes (variable independiente) y pesos (variable dependiente)
+
+```python
+def rls(x, y):
+    n = len(x)
+
+    xy = [xi * yi for xi, yi in zip(x, y)]
+    x2 = [xi**2 for xi in x]
+
+    suma_xy = sum(xy)
+    suma_x2 = sum(x2)
+
+    k = suma_xy / sum_x2
+
+    return k
+```
+
+Al regresar 
 
 
