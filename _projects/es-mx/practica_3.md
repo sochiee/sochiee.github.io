@@ -7,6 +7,7 @@ img: assets/img/practicas/fishe.jpg
 importance: 3
 category: Taller de Modelado
 related_publications: true
+pretty_table: true
 ---
 
 <span style="font-size: 12px;">_En colaboración con Galeana Morán Miguel Ángel y Chalche Julio César_</span>
