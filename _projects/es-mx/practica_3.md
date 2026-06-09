@@ -212,6 +212,13 @@ Al ingresar la lista de las longitudes y las circunferencias máximas al cuadrad
 
 Y al graficarlos obtenemos la siguiente gráfica: 
 
+<div class="row">
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/practicas/aproximacion_multilineal.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
 
 
 
