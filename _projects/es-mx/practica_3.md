@@ -64,6 +64,7 @@ $$
                   &= \sum_{i=1}^n -2 x_i (y_i - k x_i) \\
                   &= -2 \sum_{i=1}^n x_i y_i - k x_i^2
 \end{align*}
+$$
 
 
 
