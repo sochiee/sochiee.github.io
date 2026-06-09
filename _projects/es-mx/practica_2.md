@@ -2,7 +2,10 @@
 page_id: practica_2
 layout: page
 title: Método QR
-description: Para calculo de eigenvalores 
+description: >
+    <p>Galeana Morán Miguel Ángel</p>
+    <p>García Chalche Julio César</p>
+    <p>Sánchez García Rafael</p>
 img: assets/img/practicas/converge.png
 importance: 2
 category: Taller de Modelado
