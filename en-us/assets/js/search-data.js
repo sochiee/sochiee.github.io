@@ -458,7 +458,7 @@ ninja.data = [{
               window.location.href = "/en-us/projects/practica_1/";
             },},{id: "projects-método-qr",
           title: 'Método QR',
-          description: "Galeana Morán Miguel Ángel García Chalche Julio César Sánchez García Rafael",
+          description: "Para calculo de eigenvalores",
           section: "Projects",handler: () => {
               window.location.href = "/en-us/projects/practica_2/";
             },},{
