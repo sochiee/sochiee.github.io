@@ -453,12 +453,12 @@ ninja.data = [{
               window.location.href = "/en-us/projects/9_project/";
             },},{id: "projects-sistema-de-ecuaciones-en-diferencia",
           title: 'Sistema de Ecuaciones en Diferencia',
-          description: "Modelo Depredador-Presa o Lotka-Volterra",
+          description: "Galeana Morán Miguel Ángel García Chalche Julio César Sánchez García Rafael",
           section: "Projects",handler: () => {
               window.location.href = "/en-us/projects/practica_1/";
             },},{id: "projects-método-qr",
           title: 'Método QR',
-          description: "Para calculo de eigenvalores",
+          description: "Galeana Morán Miguel Ángel García Chalche Julio César Sánchez García Rafael",
           section: "Projects",handler: () => {
               window.location.href = "/en-us/projects/practica_2/";
             },},{
