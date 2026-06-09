@@ -162,8 +162,14 @@ $$
 \end{align*}
 $$
 
+Igualando ambos a cero, obtenemos el siguiente sistema de ecuaciones en forma matricial:
 
-
+$$
+\begin{bmatrix}
+\sum_{i=1}^n x_{i1}^2 & \sum_{i=1}^n x_{i2}x_{i1} \\
+\sum_{i=1}^n x_{i1}x_{i2} & \sum_{i=1}^n x_{i2}^2
+\end{bmatrix}
+$$
 
 
 
