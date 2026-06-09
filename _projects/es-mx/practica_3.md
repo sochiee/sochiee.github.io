@@ -15,7 +15,14 @@ related_publications: true
 Queremos saber el peso de un Róbalo conociendo únicamente mediciones hechas con una cinta metrica. Para el modelo supondremos varias cosas.
 
 - Todos los pescados son de la misma especie
-- La densidad de los pescados es constante ($$W \propto V$$)
-- Los Róbalos son geometricamente similares ($$W \propto l^3$$)
+- La densidad de los pescados es constante
+- Los Róbalos son geometricamente similares 
 
+Los datos que tenemos sobre los peces son los siguientes: 
 
+| Longitud (cm) | 36.81 | 31.77 | 43.82 | 36.82 | 32.07 | 45.07 | 35.89 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Peso (kg)** | 0.78 | 0.47 | 1.16 | 0.74 | 0.44 | 1.40 | 0.64 |
+
+Como la densidad de los pescados es constante y son geometricamente similares, podemos concluir que $$W \propto V$$. Al graficar esta relación usando los
+datos anteriores tenemos: 
