@@ -8,3 +8,8 @@ importance: 3
 category: Taller de Modelado
 related_publications: true
 ---
+
+<span style="font-size: 12px;">_En colaboración con Galeana Morán Miguel Ángel y Chalche Julio César_</span>
+
+
+Queremos saber el peso de un Róbalo conociendo únicamente su 
