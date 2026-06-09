@@ -37,8 +37,7 @@ datos anteriores tenemos:
 Usando los datos anteriores, queremos obtener un modelo que al darle una longitud nos devuelva una buena aproximación del peso. Es decir, un modelo de la forma $$W = k l^3$$ para algún $$k$$. 
 
 
-En este caso, una buena manera de aproximar una $$k$$ es mediante la regresion lineal simple, ya que solo contamos con una variable independiente de volumen.
-Supongamos que para nuestras observaciones $$\{x_i, y_i\}^{n}_{i=1}$$ se tiene el siguiente modelo:
+En este caso, una buena manera de aproximar una $$k$$ es mediante la regresion lineal simple. Sabemos esto debido a que, al calcular el coeficiente de pearson de los volumenes y pesos, obtenemos que $$r \approx 0.99$$ por lo que hay una correlación lineal directa. Ya que solo contamos con una variable independiente de volumen, supongamos que para nuestras observaciones $$\{x_i, y_i\}^{n}_{i=1}$$ se tiene el siguiente modelo:
 
 $$
 \begin{align*}
@@ -104,6 +103,11 @@ Al graficar la función $$W=k l^3$ en la gráfica de comparación de nuestros va
         {% include figure.liquid loading="eager" path="assets/img/practicas/aproximacion_lineal.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+Como se puede observar, el valor de k obtenido nos da una buena aproximación lineal. Más aun, sabemos que es 
+
+
+
 
 
 
