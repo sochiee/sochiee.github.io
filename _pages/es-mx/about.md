@@ -10,7 +10,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Buenas noches!</p>
+    <p>A sleeping cat (1898) </p>
+    <p>Henriëtte Ronner-Knip (Dutch, 1821 – 1909)</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
