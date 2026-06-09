@@ -2,11 +2,8 @@
 page_id: practica_2
 layout: page
 title: Método QR
-description: >
-    <p>Domínguez León José Miguel</p>
-    <p>Lazcano Flores Valeria</p>
-    <p>Sánchez García Rafael</p>
-img: assets/img/practicas/converge.png
+description: Algoritmo computacional para encontrar eigenvalores
+img: assets/img/practicas/eigenvals.png
 importance: 2
 category: Taller de Modelado
 related_publications: true
