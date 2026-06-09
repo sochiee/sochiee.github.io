@@ -169,12 +169,10 @@ $$
 \sum_{i=1}^n x_{i1}^2 & \sum_{i=1}^n x_{i2}x_{i1} \\
 \sum_{i=1}^n x_{i1}x_{i2} & \sum_{i=1}^n x_{i2}^2
 \end{bmatrix}
-
 \begin{bmatrix}
 \beta_0 \\
 \beta_1
 \end{bmatrix}
-
 \begin{bmatrix}
 \sum_{i=1}^n y_i x_{i1} \\
 \sum_{i=1}^n y_i x_{i2}
