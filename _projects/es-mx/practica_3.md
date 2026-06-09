@@ -108,9 +108,6 @@ Al graficar la función $$W=k l^3$$ en la gráfica de comparación de nuestros v
 Como se puede observar, el valor de k obtenido nos da una buena aproximación lineal.
 
 
-Sin embargo, con la circunferencia podemos proponer un nuevo modelo.
-
-
 Ahora supongamos que además de la longitud del pez, también tenemos los datos de su circunferencia máxima. 
 
 | **Longitud (cm)** | 36.81 | 31.77 | 43.82 | 36.82 | 32.07 | 45.07 | 35.89 |
