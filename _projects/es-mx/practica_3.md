@@ -111,7 +111,15 @@ Como se puede observar, el valor de k obtenido nos da una buena aproximación li
 Sin embargo, con la circunferencia podemos proponer un nuevo modelo.
 
 
-Ahora supongamos que además de la longitud del pez, también tenemos los datos de su circunferencia máxima. Con lo anterior, podemos hacer dos nuevas suposiciones para nuestro modelo: 
+Ahora supongamos que además de la longitud del pez, también tenemos los datos de su circunferencia máxima. 
+
+| Variable | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Longitud (cm)** | 36.81 | 31.77 | 43.82 | 36.82 | 32.07 | 45.07 | 35.89 |
+| **Peso (kg)** | 0.78 | 0.47 | 1.16 | 0.74 | 0.44 | 1.40 | 0.64 |
+| **Circunferencia_Max** | 24.77 | 21.29 | 27.94 | 24.77 | 21.59 | 31.75 | 22.86 |
+
+Con lo anterior, podemos hacer dos nuevas suposiciones para nuestro modelo: 
 
 - Solo la sección transversal de los peces es geometricamente similar
 - La dimensión característica de los peces es su circunferencia máxima
@@ -121,4 +129,5 @@ $$
 \implies & V \propto l_e ( A_{prom} ) \\
 \iff     & V \propto l C_{max}^2
 \end{align*}
-$$
+$$ 
+
