@@ -458,9 +458,14 @@ ninja.data = [{
               window.location.href = "/projects/practica_1/";
             },},{id: "projects-método-qr",
           title: 'Método QR',
-          description: "Para calculo de eigenvalores",
+          description: "Galeana Morán Miguel Ángel García Chalche Julio César Sánchez García Rafael",
           section: "",handler: () => {
               window.location.href = "/projects/practica_2/";
+            },},{id: "projects-modelos-de-similitud-geométrica",
+          title: 'Modelos De Similitud Geométrica',
+          description: "Galeana Morán Miguel Ángel García Chalche Julio César Sánchez García Rafael",
+          section: "",handler: () => {
+              window.location.href = "/projects/practica_3/";
             },},{
         id: 'social-cv',
         title: 'CV',
