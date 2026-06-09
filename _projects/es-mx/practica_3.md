@@ -38,4 +38,13 @@ Usando los datos anteriores, queremos obtener un modelo que al darle una longitu
 
 
 En este caso, una buena manera de aproximar una $$k$$ es mediante la regresion lineal simple, ya que solo contamos con una variable independiente de volumen.
-Supongamos que para nuestras observaciones $$\{x_i, y_i\}^{n}_{i=1}$$
+Supongamos que para nuestras observaciones $$\{x_i, y_i\}^{n}_{i=1}$$ se tiene el siguiente modelo:
+
+$$
+\begin{align*}
+& y_i = k x_i + \epsilon _i \\
+\iff & \epsilon _i  = y_i - k x_i
+\end{align*}
+$$ 
+
+En donde $$\epsilon _i$$ es el error o diferencia entre nuestro modelo y los datos reales. 
