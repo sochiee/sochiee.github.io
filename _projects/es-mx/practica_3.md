@@ -172,7 +172,7 @@ $$
 \begin{bmatrix}
 \beta_0 \\
 \beta_1
-\end{bmatrix}
+\end{bmatrix} =
 \begin{bmatrix}
 \sum_{i=1}^n y_i x_{i1} \\
 \sum_{i=1}^n y_i x_{i2}
