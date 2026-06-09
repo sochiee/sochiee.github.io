@@ -61,7 +61,8 @@ Para encontrar la mejor aproximación posible de k queremos minimizar el error, 
 $$
 \begin{align*}
 \frac{d}{dk} E(k) &= \frac{d}{dk} \sum_{i=1}^n \epsilon _{i}^{2} \\
-                  &= -2 \sum_{i=1}^n x_i y_i - k x_i^2 
+                  &= -2 \sum_{i=1}^n x_i y_i - k x_i^2 \\
+0                 &= -2 \sum_{i=1}^n x_i y_i - k x_i^2 \\
 \end{align*}
 $$
 
