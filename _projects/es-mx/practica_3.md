@@ -33,3 +33,5 @@ datos anteriores tenemos:
         {% include figure.liquid loading="eager" path="assets/img/practicas/pesovolumen.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+Usando los datos anteriores, queremos obtener un modelo que al darle una longitud nos devuelva una buena aproximación del peso. Es decir, un modelo de la forma $$W = k l^3$$ para algún $$k$$. 
