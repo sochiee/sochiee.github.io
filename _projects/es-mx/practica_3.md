@@ -113,8 +113,8 @@ Sin embargo, con la circunferencia podemos proponer un nuevo modelo.
 
 Ahora supongamos que además de la longitud del pez, también tenemos los datos de su circunferencia máxima. 
 
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Longitud (cm)** | 36.81 | 31.77 | 43.82 | 36.82 | 32.07 | 45.07 | 35.89 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Peso (kg)** | 0.78 | 0.47 | 1.16 | 0.74 | 0.44 | 1.40 | 0.64 |
 | **Circunferencia_Max** | 24.77 | 21.29 | 27.94 | 24.77 | 21.59 | 31.75 | 22.86 |
 
