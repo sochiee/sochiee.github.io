@@ -26,3 +26,9 @@ Los datos que tenemos sobre los peces son los siguientes:
 
 Como la densidad de los pescados es constante y son geometricamente similares, podemos concluir que $$W \propto V$$. Al graficar esta relación usando los
 datos anteriores tenemos: 
+
+<div class="row">
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/practicas/pesovolumen.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
