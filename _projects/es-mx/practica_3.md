@@ -21,32 +21,9 @@ Queremos saber el peso de un Róbalo conociendo únicamente mediciones hechas co
 
 Los datos que tenemos sobre los peces son los siguientes: 
 
-<table class="table-auto">
-  <thead>
-    <tr>
-      <th>Longitud (cm)</th>
-      <td>36.81</td>
-      <td>31.77</td>
-      <td>43.82</td>
-      <td>36.82</td>
-      <td>32.07</td>
-      <td>45.07</td>
-      <td>35.89</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Peso (kg)</th>
-      <td>0.78</td>
-      <td>0.47</td>
-      <td>1.16</td>
-      <td>0.74</td>
-      <td>0.44</td>
-      <td>1.40</td>
-      <td>0.64</td>
-    </tr>
-  </tbody>
-</table>
+| Longitud (cm) | 36.81 | 31.77 | 43.82 | 36.82 | 32.07 | 45.07 | 35.89 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Peso (kg)** | 0.78 | 0.47 | 1.16 | 0.74 | 0.44 | 1.40 | 0.64 |
 
 Como la densidad de los pescados es constante y son geometricamente similares, podemos concluir que $$W \propto V$$. Al graficar esta relación usando los
 datos anteriores tenemos: 
