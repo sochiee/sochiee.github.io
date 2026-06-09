@@ -46,7 +46,7 @@ def eigenvals(A, n):
     return Ak
 {% endhighlight %}
 
-Esta función es una implementación del método QR. Dada una una matriz A y un numero n de iteracioens, corre un ciclo en donde define matrices simétricas a A usando su factorización QR, ya que: 
+Esta función es una implementación del método QR. Dada una una matriz A y un numero n de iteraciones, corre un ciclo en donde define matrices simétricas a A usando su factorización QR, ya que: 
 
 $$
 \begin{align*}
@@ -59,5 +59,8 @@ $$
 Por lo cual, para cada iteracion, la matriz $$A_{k}$$ es una matriz simétrica a A. 
 
 
+Al correr la función con la matriz A anteriormente definida y 100 iteraciones:
 
-
+```bash
+## [[9.000000000000012, -8.165195510215797e-17], [-6.049899898193181e-35, 4.000000000000002]]
+``` 
