@@ -463,7 +463,7 @@ ninja.data = [{
               window.location.href = "/projects/practica_2/";
             },},{id: "projects-modelos-de-similitud-geométrica",
           title: 'Modelos De Similitud Geométrica',
-          description: "Galeana Morán Miguel Ángel García Chalche Julio César Sánchez García Rafael",
+          description: "El Problema del Campeonato de Pesca De Róbalo",
           section: "",handler: () => {
               window.location.href = "/projects/practica_3/";
             },},{
