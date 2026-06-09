@@ -47,4 +47,11 @@ $$
 \end{align*}
 $$ 
 
-En donde $$\epsilon _i$$ es el error o diferencia entre nuestro modelo y los datos reales. 
+En donde $$\epsilon _i$$ es el error o diferencia entre nuestro modelo y los datos reales. Así, definimos una funcion de error $E$:
+
+$$
+\begin{align*}
+E(x) &= \sum_{i=1}^n \epsilon _{i}^{2}
+     &= \sum_{i=1}^n (y_i - k x_i)^2
+\end{align*}
+$$
