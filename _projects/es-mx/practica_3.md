@@ -92,6 +92,18 @@ def rls(x, y):
     return k
 ```
 
-Al regresar 
+Al ejecutar la función con los volumenes y los pesos de los Róbalos, nos regresa el siguiente valor para k:
+
+```bash
+## 1.4610241788737212e-05
+```
+Al graficar la función $$W=k l^3$ en la gráfica de comparación de nuestros valores, obtenemos lo siguiente:
+
+<div class="row">
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/practicas/aproximacion_lineal.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 
