@@ -71,7 +71,7 @@ $$
 \begin{align*}
 & -2 \sum_{i=1}^n x_i y_i - k x_i^2 = 0 \\
 \iff & \sum_{i=1}^n x_i y_i - k \sum_{i=1}^n x_i^2 = 0 \\
-\iff & -k = \frac{-\sum_{i=1}^n x_i y_i}{\sum_{i=1}^n x_i^2}
+\iff & k = \frac{\sum_{i=1}^n x_i y_i}{\sum_{i=1}^n x_i^2}
 \end{align*}
 $$
 
