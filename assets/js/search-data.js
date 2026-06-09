@@ -458,7 +458,7 @@ ninja.data = [{
               window.location.href = "/projects/practica_1/";
             },},{id: "projects-método-qr",
           title: 'Método QR',
-          description: "Galeana Morán Miguel Ángel García Chalche Julio César Sánchez García Rafael",
+          description: "Domínguez León José Miguel Lazcano Flores Valeria Sánchez García Rafael",
           section: "",handler: () => {
               window.location.href = "/projects/practica_2/";
             },},{id: "projects-modelos-de-similitud-geométrica",
