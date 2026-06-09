@@ -9,7 +9,7 @@ category: Taller de Modelado
 related_publications: true
 ---
 
-<span style="font-size: 6px;">_En colaboración con Galeana Morán Miguel Ángel y Chalche Julio César_</span>
+<span style="font-size: 12px;">_En colaboración con Galeana Morán Miguel Ángel y Chalche Julio César_</span>
 
 
 El modelo Lotka-volterra es una representación de un sistema biológico en el que dos especies interactuan, una como presa y la otra como depredador.
