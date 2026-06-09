@@ -2,15 +2,14 @@
 page_id: practica_1
 layout: page
 title: Sistema de Ecuaciones en Diferencia
-description: >
-        <p>Galeana Morán Miguel Ángel</p>
-        <p>García Chalche Julio César</p>
-        <p>Sánchez García Rafael</p>
+description: Modelo Lotka-Volterra
 img: assets/img/practicas/converge.png
 importance: 1
 category: Taller de Modelado
 related_publications: true
 ---
+
+<small>_En colaboración con Galeana Morán Miguel Ángel y Chalche Julio César_</small>
 
 El modelo Lotka-volterra es una representación de un sistema biológico en el que dos especies interactuan, una como presa y la otra como depredador.
 Consiste en las siguientes ecuaciones diferenciales, las cuales describen las dinámicas entre las dos poblaciones.
