@@ -9,7 +9,7 @@ category: Taller de Modelado
 related_publications: true
 ---
 
-<span style="font-size: 6px;">_En colaboración con Domínguez León José Miguel y Lazcano Flores Valeria_</span>
+<span style="font-size: 12px;">_En colaboración con Domínguez León José Miguel y Lazcano Flores Valeria_</span>
 
 Sea
 
