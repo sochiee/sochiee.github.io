@@ -118,7 +118,7 @@ Ahora supongamos que además de la longitud del pez, también tenemos los datos 
 
 $$
 \begin{align*}
-\implies & V \propto l_e ( A_prom ) \\
+\implies & V \propto l_e ( A_{prom} ) \\
 \iff     & V \propto l C_{max}^2
 \end{align*}
 $$
