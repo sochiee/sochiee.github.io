@@ -453,7 +453,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-sistema-de-ecuaciones-en-diferencia",
           title: 'Sistema de Ecuaciones en Diferencia',
-          description: "Galeana Morán Miguel Ángel García Chalche Julio César Sánchez García Rafael",
+          description: "Modelo Lotka-Volterra",
           section: "",handler: () => {
               window.location.href = "/projects/practica_1/";
             },},{id: "projects-método-qr",
