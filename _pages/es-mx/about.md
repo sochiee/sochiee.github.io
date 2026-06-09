@@ -11,7 +11,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>A sleeping cat (1898) </p>
-    <p>Henriëtte Ronner-Knip (Dutch, 1821 – 1909)</p>
+    <p>Henriëtte Ronner-Knip</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
