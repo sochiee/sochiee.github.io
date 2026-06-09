@@ -175,8 +175,6 @@ $$
 \beta_1
 \end{bmatrix}
 
-=
-
 \begin{bmatrix}
 \sum_{i=1}^n y_i x_{i1} \\
 \sum_{i=1}^n y_i x_{i2}
