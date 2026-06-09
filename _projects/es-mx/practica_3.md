@@ -12,4 +12,10 @@ related_publications: true
 <span style="font-size: 12px;">_En colaboración con Galeana Morán Miguel Ángel y Chalche Julio César_</span>
 
 
-Queremos saber el peso de un Róbalo conociendo únicamente su 
+Queremos saber el peso de un Róbalo conociendo únicamente mediciones hechas con una cinta metrica. Para el modelo supondremos varias cosas.
+
+- Todos los pescados son de la misma especie
+- La densidad de los pescados es constante ($$W \propto V$$)
+- Los Róbalos son geometricamente similares ($$W \propto l^3$$)
+
+
