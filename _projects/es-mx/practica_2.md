@@ -100,3 +100,8 @@ matriz. Si nunca cumple esa condición, continua hasta terminar el número máxi
 Al correr la nueva función con una tolerancia $$\epsilon = 1 \times 10^{-10}$$ y un número máximo de iteraciones 1000: 
 
 ```bash
+## 31
+## [[9.000000000000012, -5.372297822353734e-11], [-5.372289657158224e-11, 4.000000000000002]]
+```
+
+Es decir, alcanza la precisión deseada en tan solamente 31 iteraciones.
