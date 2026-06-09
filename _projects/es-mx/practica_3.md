@@ -51,7 +51,19 @@ En donde $$\epsilon _i$$ es el error o diferencia entre nuestro modelo y los dat
 
 $$
 \begin{align*}
-E(x) &= \sum_{i=1}^n \epsilon _{i}^{2} \\
+E(k) &= \sum_{i=1}^n \epsilon _{i}^{2} \\
      &= \sum_{i=1}^n (y_i - k x_i)^2
 \end{align*}
 $$
+
+Para encontrar la mejor aproximación posible de k queremos minimizar el error, para ello tenemos que encontrar el minimo de la función anterior. Derivando con respectdo a k:
+
+$$
+\begin{align*}
+\frac{d}{dk} E(k) &= \frac{d}{dk} \sum_{i=1}^n \epsilon _{i}^{2} \\
+                  &= \sum_{i=1}^n -2 x_i (y_i - k x_i)
+                  &= -2 \sum_{i=1}^n x_i y_i - k x_i^2
+\end{align*}
+
+
+
