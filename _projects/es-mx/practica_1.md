@@ -2,7 +2,10 @@
 page_id: practica_1
 layout: page
 title: Sistema de Ecuaciones en Diferencia
-description: Modelo Depredador-Presa o Lotka-Volterra
+description: >
+        <p>Galeana Morán Miguel Ángel</p>
+        <p>García Chalche Julio César</p>
+        <p>Sánchez García Rafael</p>
 img: assets/img/practicas/converge.png
 importance: 1
 category: Taller de Modelado
