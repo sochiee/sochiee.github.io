@@ -458,7 +458,7 @@ ninja.data = [{
               window.location.href = "/en-us/projects/practica_1/";
             },},{id: "projects-método-qr",
           title: 'Método QR',
-          description: "Domínguez León José Miguel Lazcano Flores Valeria Sánchez García Rafael",
+          description: "Algoritmo computacional para encontrar eigenvalores",
           section: "Projects",handler: () => {
               window.location.href = "/en-us/projects/practica_2/";
             },},{id: "projects-modelos-de-similitud-geométrica",
