@@ -96,13 +96,14 @@ Al ejecutar la función con los volumenes y los pesos de los Róbalos, nos regre
 ```bash
 ## 1.4610241788737212e-05
 ```
-Al graficar la función $$W=k l^3$ en la gráfica de comparación de nuestros valores, obtenemos lo siguiente:
+Al graficar la función $$W=k l^3$$ en la gráfica de comparación de nuestros valores, obtenemos lo siguiente:
 
 <div class="row">
     <div class="col">
         {% include figure.liquid loading="eager" path="assets/img/practicas/aproximacion_lineal.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 
 Como se puede observar, el valor de k obtenido nos da una buena aproximación lineal. Más aun, sabemos que es 
 
