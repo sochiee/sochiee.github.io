@@ -105,7 +105,10 @@ Al graficar la función $$W=k l^3$$ en la gráfica de comparación de nuestros v
 </div>
 
 
-Como se puede observar, el valor de k obtenido nos da una buena aproximación lineal. Más aun, sabemos que es 
+Como se puede observar, el valor de k obtenido nos da una buena aproximación lineal.
+
+
+Sin embargo, con la circunferencia podemos proponer un nuevo modelo.
 
 
 
