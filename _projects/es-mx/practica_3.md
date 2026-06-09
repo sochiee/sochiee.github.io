@@ -151,7 +151,7 @@ Tomamos las derivada parciales con respecto a $$\beta _0$$ y $$\beta _1$$:
 $$
 \begin{align*}
 \frac{\partial}{\partial \beta _0} E(\beta _0, \beta _1) &= \frac{\partial}{\partial \beta _0} \sum_{i=1}^n (y_i - \beta _0 x_{i1} - \beta _1 x_{i2})^2 \\
-                      &= -2 \sum_{i=1}^n (y_i x_{i1} - \beta _0 x_{i1}^2 - \beta _1 x_{i2}x_{i1} )
+                      &= -2 ( \sum_{i=1}^n y_i x_{i1} - \beta _0 \sum_{i=1}^n x_{i1}^2 - \beta _1 \sum_{i=1}^n x_{i2}x_{i1} )
 \end{align*}
 $$
 
