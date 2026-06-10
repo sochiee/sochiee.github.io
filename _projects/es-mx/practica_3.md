@@ -207,7 +207,7 @@ def rlm(x1, x2, y):
 Como queremos una aproximación de la forma $$W=\beta_0 l^3 + \beta_1 l C_{max}^2$$. Al ingresar la lista de las longitudes y las circunferencias máximas nos regresa los siguientes valores de $$\beta_0$$ y $$\beta_1$$:
 
 ```bash
-## -0.012237, 0.001990
+## 7.08338651e-06 1.67242847e-05
 ```
 
 Y al graficarlos obtenemos la siguiente gráfica: 
