@@ -204,7 +204,7 @@ def rlm(x1, x2, y):
     return solucion
 ```
 
-Al ingresar la lista de las longitudes y las circunferencias máximas al cuadrado nos regresa los siguientes valores de $$\beta_0$$ y $$\beta_1$$:
+Como queremos una aproximación de la forma $$W=\beta_0 l^3 + \beta_1 l C_{max}^2$$. Al ingresar la lista de las longitudes y las circunferencias máximas nos regresa los siguientes valores de $$\beta_0$$ y $$\beta_1$$:
 
 ```bash
 ## -0.012237, 0.001990
