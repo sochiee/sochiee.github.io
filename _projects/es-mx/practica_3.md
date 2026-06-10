@@ -218,6 +218,25 @@ Y al graficarlos obtenemos la siguiente gráfica:
     </div>
 </div>
 
+Utilizando una función para calcular la diferencia entre los datos verdaderos y los datos del modelo podemos comparar la precisión de ambos modelos. 
+
+```python
+def calc_error(pred, truth):
+    n = len(pred)
+
+    error = sum([(p - t)**2 for p, t in zip(pred, truth)]) / n
+
+    return error
+```
+
+Al ingresar los datos de ambos modelos nos regresa: 
+
+```bash
+## error lineal: 0.00206611667532359
+## error polinomial: 0.0006455804863682667
+```
+Podemos observar que el error promedio del modelo polinómico es considerablemente menor.
+
 
 
 
