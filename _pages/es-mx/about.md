@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: Nunca se que poner aqui!
+subtitle: 今日も昨日と変わらない, 明日も今日と変わらないだろう。
 
 profile:
   align: right
@@ -26,5 +26,4 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
-Biografia!
+Estudiante de Matemáticas Aplicadas en la Facultad de Ciencias de la UNAM. Me gusta la música y leer y así. 
