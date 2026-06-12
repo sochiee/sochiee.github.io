@@ -27,12 +27,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/en-us/cositas/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+        },{id: "nav-repositorios",
+          title: "repositorios",
+          description: "Mis repos",
           section: "Navigation menu",
           handler: () => {
-            window.location.href = "/en-us/repositories/";
+            window.location.href = "/en-us/repositorios/";
           },
         },{id: "post-a-post-with-plotly-js",
         
