@@ -7,7 +7,7 @@ first_name: sochiee
 middle_name:
 last_name:
 keywords: # add your own keywords or leave empty
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: site_logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://sochiee.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
